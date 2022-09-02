@@ -1,0 +1,20 @@
+!
+! Title: Lancache DNS Rewrite List
+! Description: List of all domains for rewriting on AGH 
+! Homepage: https://github.com/red0fireus/lancache-dnsrewrite-list
+! License: https://github.com/red0fireus/lancache-dnsrewrite-list/blob/main/LICENSE
+!
+! Source name: Lancache DNS Rewrite list
+! Source: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/EnglishFilter/sections/adservers.txt
+!
+!
+! This section contains the list of third-party advertising networks domains.
+! Note, that we only put rules that block full domains here and not URL parts (there's `general_url.txt` for that). Also, it must be domains that are used in a third-party context.
+! The rules with hints are at the end of file.
+
+! Good: ||doubleclick.net^$third-party
+! Bad: /banner.jpg (should be in general_url.txt)
+! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
+!
+!
+!
