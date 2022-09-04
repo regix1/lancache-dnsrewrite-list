@@ -25,7 +25,7 @@
 ||blzddist1-a.akamaihd.net^$dnsrewrite=192.168.1.213
 ||blzddist2-a.akamaihd.net^$dnsrewrite=192.168.1.213
 ||blzddist3-a.akamaihd.net^$dnsrewrite=192.168.1.213
-||level3.blizzard.com^$dnsrewrite=192.168.1.213
+!||level3.blizzard.com^$dnsrewrite=192.168.1.213
 ||nydus.battle.net^$dnsrewrite=192.168.1.213
 ||edge.blizzard.top.comcast.net^$dnsrewrite=192.168.1.213
 ||cdn.blizzard.com^$dnsrewrite=192.168.1.213
