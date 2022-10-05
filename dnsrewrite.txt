@@ -184,3 +184,32 @@
 ||xvcf1.xboxlive.com^$dnsrewrite=192.168.1.213
 ||xvcf2.xboxlive.com^$dnsrewrite=192.168.1.213
 ||d1.xboxlive.com^$dnsrewrite=192.168.1.213
+
+! apple domain list
+||*.mzstatic.com^$dnsrewrite=192.168.1.213
+||mzstatic.com^$dnsrewrite=192.168.1.213
+||swcdn.apple.com^$dnsrewrite=192.168.1.213
+||itunes-apple.com^$dnsrewrite=192.168.1.213
+||swscan.apple.com^$dnsrewrite=192.168.1.213
+||osxapps.itunes.apple.com^$dnsrewrite=192.168.1.213
+||swdownload.apple.com^$dnsrewrite=192.168.1.213
+||*.aaplimg.com^$dnsrewrite=192.168.1.213
+||aaplimg.com^$dnsrewrite=192.168.1.213
+||iosapps.itunes.apple.com^$dnsrewrite=192.168.1.213
+||swquery.apple.com^$dnsrewrite=192.168.1.213^$dnsrewrite=192.168.1.213
+||albert.apple.com^$dnsrewrite=192.168.1.213
+||deimos3.apple.com^$dnsrewrite=192.168.1.213
+||mesu.apple.com^$dnsrewrite=192.168.1.213
+||skl.apple.com^$dnsrewrite=192.168.1.213
+||appldnld.apple.com^$dnsrewrite=192.168.1.213
+||gs.apple.com^$dnsrewrite=192.168.1.213
+||*.cdn-apple.com^$dnsrewrite=192.168.1.213
+
+! nvidia domain list
+||download.gfe.nvidia.com^$dnsrewrite=192.168.1.213
+||international-gfe.download.nvidia.com^$dnsrewrite=192.168.1.213
+||events.gfe.nvidia.com^$dnsrewrite=192.168.1.213
+||images.nvidia.com^$dnsrewrite=192.168.1.213
+||api.gfe.nvidia.com^$dnsrewrite=192.168.1.213
+||services.gfe.nvidia.com^$dnsrewrite=192.168.1.213
+||ota.nvidia.com^$dnsrewrite=192.168.1.213
