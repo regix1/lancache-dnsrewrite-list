@@ -213,3 +213,5 @@
 ||api.gfe.nvidia.com^$dnsrewrite=192.168.1.213
 ||services.gfe.nvidia.com^$dnsrewrite=192.168.1.213
 ||ota.nvidia.com^$dnsrewrite=192.168.1.213
+
+
