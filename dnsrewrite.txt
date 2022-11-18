@@ -19,17 +19,17 @@
 ||assetcdn.103.arenanetworks.com^$dnsrewrite=192.168.1.213
 
 ! blizzard domain list
-||dist.blizzard.com^$dnsrewrite=192.168.1.213
-||dist.blizzard.com.edgesuite.net^$dnsrewrite=192.168.1.213
-||blizzard.vo.llnwd.net^$dnsrewrite=192.168.1.213
-||blzddist1-a.akamaihd.net^$dnsrewrite=192.168.1.213
-||blzddist2-a.akamaihd.net^$dnsrewrite=192.168.1.213
-||blzddist3-a.akamaihd.net^$dnsrewrite=192.168.1.213
-||level3.blizzard.com^$dnsrewrite=192.168.1.213
-||nydus.battle.net^$dnsrewrite=192.168.1.213
-||edge.blizzard.top.comcast.net^$dnsrewrite=192.168.1.213
-||cdn.blizzard.com^$dnsrewrite=192.168.1.213
-||*.cdn.blizzard.com^$dnsrewrite=192.168.1.213
+||dist.blizzard.com^$dnsrewrite=192.168.1.214
+||dist.blizzard.com.edgesuite.net^$dnsrewrite=192.168.1.214
+||blizzard.vo.llnwd.net^$dnsrewrite=192.168.1.214
+||blzddist1-a.akamaihd.net^$dnsrewrite=192.168.1.214
+||blzddist2-a.akamaihd.net^$dnsrewrite=192.168.1.214
+||blzddist3-a.akamaihd.net^$dnsrewrite=192.168.1.214
+||level3.blizzard.com^$dnsrewrite=192.168.1.214
+||nydus.battle.net^$dnsrewrite=192.168.1.214
+||edge.blizzard.top.comcast.net^$dnsrewrite=192.168.1.214
+||cdn.blizzard.com^$dnsrewrite=192.168.1.214
+||*.cdn.blizzard.com^$dnsrewrite=192.168.1.214
 
 ! bsg domain list
 ||cdn-11.eft-store.com^$dnsrewrite=192.168.1.213
