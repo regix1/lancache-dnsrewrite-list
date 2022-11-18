@@ -7,6 +7,7 @@
 ! Source name: Lancache DNS Rewrite list
 ! Source: https://raw.githubusercontent.com/red0fireus/lancache-dnsrewrite-list/main/dnsrewrite.txt
 !
+! FUCK
 !
 ! These rules are taken from https://github.com/uklans/cache-domains
 ! This is setup for my local server on port 192.168.1.213:80. You will need to change this number to whatever you use.
