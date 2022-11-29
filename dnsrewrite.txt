@@ -115,7 +115,7 @@
 ||*.dyn.riotcdn.net^$dnsrewrite=192.168.1.214
 
 ! rockstar games domain list
-||patches.rockstargames.com^$dnsrewrite=192.168.1.215
+||patches.rockstargames.com^$dnsrewrite=192.168.1.214
 
 ! sony domain list
 ||gs2.ww.prod.dl.playstation.net^$dnsrewrite=192.168.1.214
