@@ -9,207 +9,207 @@
 !
 !
 ! These rules are taken from https://github.com/uklans/cache-domains
-! This is setup for my local server on IP 172.20.128.3 (docker). You will need to change this number to whatever you use on your docker server (for monolithic multiple IPs).
+! This is setup for my local server on IP 0.0.0.0.
 !
 !
 !
 ! arenanet domain list
-||assetcdn.101.arenanetworks.com^$dnsrewrite=172.20.128.3
-||assetcdn.102.arenanetworks.com^$dnsrewrite=172.20.128.3
-||assetcdn.103.arenanetworks.com^$dnsrewrite=172.20.128.3
+||assetcdn.101.arenanetworks.com^$dnsrewrite=0.0.0.0
+||assetcdn.102.arenanetworks.com^$dnsrewrite=0.0.0.0
+||assetcdn.103.arenanetworks.com^$dnsrewrite=0.0.0.0
 
 ! blizzard domain list
-||dist.blizzard.com^$dnsrewrite=172.20.128.3
-||dist.blizzard.com.edgesuite.net^$dnsrewrite=172.20.128.3
-||blizzard.vo.llnwd.net^$dnsrewrite=172.20.128.3
-||blzddist1-a.akamaihd.net^$dnsrewrite=172.20.128.3
-||blzddist2-a.akamaihd.net^$dnsrewrite=172.20.128.3
-||blzddist3-a.akamaihd.net^$dnsrewrite=172.20.128.3
-||level3.blizzard.com^$dnsrewrite=172.20.128.3
-||nydus.battle.net^$dnsrewrite=172.20.128.3
-||edge.blizzard.top.comcast.net^$dnsrewrite=172.20.128.3
-||cdn.blizzard.com^$dnsrewrite=172.20.128.3
-||*.cdn.blizzard.com^$dnsrewrite=172.20.128.3
+||dist.blizzard.com^$dnsrewrite=0.0.0.0
+||dist.blizzard.com.edgesuite.net^$dnsrewrite=0.0.0.0
+||blizzard.vo.llnwd.net^$dnsrewrite=0.0.0.0
+||blzddist1-a.akamaihd.net^$dnsrewrite=0.0.0.0
+||blzddist2-a.akamaihd.net^$dnsrewrite=0.0.0.0
+||blzddist3-a.akamaihd.net^$dnsrewrite=0.0.0.0
+||level3.blizzard.com^$dnsrewrite=0.0.0.0
+||nydus.battle.net^$dnsrewrite=0.0.0.0
+||edge.blizzard.top.comcast.net^$dnsrewrite=0.0.0.0
+||cdn.blizzard.com^$dnsrewrite=0.0.0.0
+||*.cdn.blizzard.com^$dnsrewrite=0.0.0.0
 
 ! bsg domain list
-||cdn-11.eft-store.com^$dnsrewrite=172.20.128.3
-||cl-453343cd.gcdn.co^$dnsrewrite=172.20.128.3
+||cdn-11.eft-store.com^$dnsrewrite=0.0.0.0
+||cl-453343cd.gcdn.co^$dnsrewrite=0.0.0.0
 
 ! city of heroes domain list
-||cdn-na1.homecomingservers.com^$dnsrewrite=172.20.128.3
-||cdn-na2.homecomingservers.com^$dnsrewrite=172.20.128.3
-||cdn-na3.homecomingservers.com^$dnsrewrite=172.20.128.3
-||cdn-eu1.homecomingservers.com^$dnsrewrite=172.20.128.3
+||cdn-na1.homecomingservers.com^$dnsrewrite=0.0.0.0
+||cdn-na2.homecomingservers.com^$dnsrewrite=0.0.0.0
+||cdn-na3.homecomingservers.com^$dnsrewrite=0.0.0.0
+||cdn-eu1.homecomingservers.com^$dnsrewrite=0.0.0.0
 
 ! daybreak domain list
-||pls.patch.daybreakgames.com^$dnsrewrite=172.20.128.3
+||pls.patch.daybreakgames.com^$dnsrewrite=0.0.0.0
 
 ! epicgames domain list
-||cdn1.epicgames.com^$dnsrewrite=172.20.128.3
-||cdn.unrealengine.com^$dnsrewrite=172.20.128.3
-||cdn1.unrealengine.com^$dnsrewrite=172.20.128.3
-||cdn2.unrealengine.com^$dnsrewrite=172.20.128.3
-||cdn3.unrealengine.com^$dnsrewrite=172.20.128.3
-||download.epicgames.com^$dnsrewrite=172.20.128.3
-||download2.epicgames.com^$dnsrewrite=172.20.128.3
-||download3.epicgames.com^$dnsrewrite=172.20.128.3
-||download4.epicgames.com^$dnsrewrite=172.20.128.3
-||epicgames-download1.akamaized.net^$dnsrewrite=172.20.128.3
-||fastly-download.epicgames.com^$dnsrewrite=172.20.128.3
+||cdn1.epicgames.com^$dnsrewrite=0.0.0.0
+||cdn.unrealengine.com^$dnsrewrite=0.0.0.0
+||cdn1.unrealengine.com^$dnsrewrite=0.0.0.0
+||cdn2.unrealengine.com^$dnsrewrite=0.0.0.0
+||cdn3.unrealengine.com^$dnsrewrite=0.0.0.0
+||download.epicgames.com^$dnsrewrite=0.0.0.0
+||download2.epicgames.com^$dnsrewrite=0.0.0.0
+||download3.epicgames.com^$dnsrewrite=0.0.0.0
+||download4.epicgames.com^$dnsrewrite=0.0.0.0
+||epicgames-download1.akamaized.net^$dnsrewrite=0.0.0.0
+||fastly-download.epicgames.com^$dnsrewrite=0.0.0.0
 
 ! frontier domain list
-||cdn.zaonce.net^$dnsrewrite=172.20.128.3
+||cdn.zaonce.net^$dnsrewrite=0.0.0.0
 
 ! never winter domain list
-||level3.nwhttppatch.crypticstudios.com^$dnsrewrite=172.20.128.3
+||level3.nwhttppatch.crypticstudios.com^$dnsrewrite=0.0.0.0
 
 ! nexusmods domain list
-||filedelivery.nexusmods.com^$dnsrewrite=172.20.128.3
+||filedelivery.nexusmods.com^$dnsrewrite=0.0.0.0
 
 ! nintendo domain list
-||ccs.cdn.wup.shop.nintendo.net^$dnsrewrite=172.20.128.3
-||ccs.cdn.wup.shop.nintendo.net.edgesuite.net^$dnsrewrite=172.20.128.3
-||geisha-wup.cdn.nintendo.net^$dnsrewrite=172.20.128.3
-||geisha-wup.cdn.nintendo.net.edgekey.net^$dnsrewrite=172.20.128.3
-||idbe-wup.cdn.nintendo.net^$dnsrewrite=172.20.128.3
-||idbe-wup.cdn.nintendo.net.edgekey.net^$dnsrewrite=172.20.128.3
-||ecs-lp1.hac.shop.nintendo.net^$dnsrewrite=172.20.128.3
-||receive-lp1.dg.srv.nintendo.net^$dnsrewrite=172.20.128.3
-||*.wup.shop.nintendo.net^$dnsrewrite=172.20.128.3
-||*.wup.eshop.nintendo.net^$dnsrewrite=172.20.128.3
-||*.hac.lp1.d4c.nintendo.net^$dnsrewrite=172.20.128.3
-||*.hac.lp1.eshop.nintendo.net^$dnsrewrite=172.20.128.3
+||ccs.cdn.wup.shop.nintendo.net^$dnsrewrite=0.0.0.0
+||ccs.cdn.wup.shop.nintendo.net.edgesuite.net^$dnsrewrite=0.0.0.0
+||geisha-wup.cdn.nintendo.net^$dnsrewrite=0.0.0.0
+||geisha-wup.cdn.nintendo.net.edgekey.net^$dnsrewrite=0.0.0.0
+||idbe-wup.cdn.nintendo.net^$dnsrewrite=0.0.0.0
+||idbe-wup.cdn.nintendo.net.edgekey.net^$dnsrewrite=0.0.0.0
+||ecs-lp1.hac.shop.nintendo.net^$dnsrewrite=0.0.0.0
+||receive-lp1.dg.srv.nintendo.net^$dnsrewrite=0.0.0.0
+||*.wup.shop.nintendo.net^$dnsrewrite=0.0.0.0
+||*.wup.eshop.nintendo.net^$dnsrewrite=0.0.0.0
+||*.hac.lp1.d4c.nintendo.net^$dnsrewrite=0.0.0.0
+||*.hac.lp1.eshop.nintendo.net^$dnsrewrite=0.0.0.0
 
 ! origin domain list
-||origin-a.akamaihd.net^$dnsrewrite=172.20.128.3
-||lvlt.cdn.ea.com^$dnsrewrite=172.20.128.3
-||cdn-patch.swtor.com^$dnsrewrite=172.20.128.3
+||origin-a.akamaihd.net^$dnsrewrite=0.0.0.0
+||lvlt.cdn.ea.com^$dnsrewrite=0.0.0.0
+||cdn-patch.swtor.com^$dnsrewrite=0.0.0.0
 
 ! path of exile domain list
-||patchcdn.pathofexile.com^$dnsrewrite=172.20.128.3
+||patchcdn.pathofexile.com^$dnsrewrite=0.0.0.0
 
 ! renegadex domain list
-||us-chi2.cncirc.net^$dnsrewrite=172.20.128.3
-||us-lv2.cncirc.net^$dnsrewrite=172.20.128.3
-||us-nj.shockhosting.ctgamehosts.uk^$dnsrewrite=172.20.128.3
-||us-va.ovh.ctgamehosts.uk^$dnsrewrite=172.20.128.3
-||rxp-de1.ts3-server.ch^$dnsrewrite=172.20.128.3
-||us-la.cncfps.com^$dnsrewrite=172.20.128.3
-||us-lv.buyvm.ren-x.com^$dnsrewrite=172.20.128.3
-||us-ny.buyvm.ren-x.com^$dnsrewrite=172.20.128.3
-||eu-lux.buyvm.ren-x.com^$dnsrewrite=172.20.128.3
-||apac-tyo.nexusbytes.ren-x.com^$dnsrewrite=172.20.128.3
-||apac-sg.nexusbytes.ren-x.com^$dnsrewrite=172.20.128.3
-||eu-nl.nexusbytes.ren-x.com^$dnsrewrite=172.20.128.3
-||eu-uk.nexusbytes.ren-x.com^$dnsrewrite=172.20.128.3
-||us-mia.buyvm.ren-x.com^$dnsrewrite=172.20.128.3
-||us-phx.speedy.ren-x.com^$dnsrewrite=172.20.128.3
-||us-dal.boomerhost.ren-x.com^$dnsrewrite=172.20.128.3
-||us-chi.racknerd.ren-x.com^$dnsrewrite=172.20.128.3
+||us-chi2.cncirc.net^$dnsrewrite=0.0.0.0
+||us-lv2.cncirc.net^$dnsrewrite=0.0.0.0
+||us-nj.shockhosting.ctgamehosts.uk^$dnsrewrite=0.0.0.0
+||us-va.ovh.ctgamehosts.uk^$dnsrewrite=0.0.0.0
+||rxp-de1.ts3-server.ch^$dnsrewrite=0.0.0.0
+||us-la.cncfps.com^$dnsrewrite=0.0.0.0
+||us-lv.buyvm.ren-x.com^$dnsrewrite=0.0.0.0
+||us-ny.buyvm.ren-x.com^$dnsrewrite=0.0.0.0
+||eu-lux.buyvm.ren-x.com^$dnsrewrite=0.0.0.0
+||apac-tyo.nexusbytes.ren-x.com^$dnsrewrite=0.0.0.0
+||apac-sg.nexusbytes.ren-x.com^$dnsrewrite=0.0.0.0
+||eu-nl.nexusbytes.ren-x.com^$dnsrewrite=0.0.0.0
+||eu-uk.nexusbytes.ren-x.com^$dnsrewrite=0.0.0.0
+||us-mia.buyvm.ren-x.com^$dnsrewrite=0.0.0.0
+||us-phx.speedy.ren-x.com^$dnsrewrite=0.0.0.0
+||us-dal.boomerhost.ren-x.com^$dnsrewrite=0.0.0.0
+||us-chi.racknerd.ren-x.com^$dnsrewrite=0.0.0.0
 
 ! riot domain list
-||l3cdn.riotgames.com^$dnsrewrite=172.20.128.3
-||worldwide.l3cdn.riotgames.com^$dnsrewrite=172.20.128.3
-||riotgamespatcher-a.akamaihd.net^$dnsrewrite=172.20.128.3
-||riotgamespatcher-a.akamaihd.net.edgesuite.net^$dnsrewrite=172.20.128.3
-||*.dyn.riotcdn.net^$dnsrewrite=172.20.128.3
+||l3cdn.riotgames.com^$dnsrewrite=0.0.0.0
+||worldwide.l3cdn.riotgames.com^$dnsrewrite=0.0.0.0
+||riotgamespatcher-a.akamaihd.net^$dnsrewrite=0.0.0.0
+||riotgamespatcher-a.akamaihd.net.edgesuite.net^$dnsrewrite=0.0.0.0
+||*.dyn.riotcdn.net^$dnsrewrite=0.0.0.0
 
 ! rockstar games domain list
-||patches.rockstargames.com^$dnsrewrite=172.20.128.3
+||patches.rockstargames.com^$dnsrewrite=0.0.0.0
 
 ! sony domain list
-||gs2.ww.prod.dl.playstation.net^$dnsrewrite=172.20.128.3
-||*.gs2.ww.prod.dl.playstation.net^$dnsrewrite=172.20.128.3
-||*.gs2.sonycoment.loris-e.llnwd.net^$dnsrewrite=172.20.128.3
-||gs2-ww-prod.psn.akadns.net^$dnsrewrite=172.20.128.3
-||*.gs2-ww-prod.psn.akadns.net^$dnsrewrite=172.20.128.3
-||gs2.ww.prod.dl.playstation.net.edgesuite.net^$dnsrewrite=172.20.128.3
-||*.gs2.ww.prod.dl.playstation.net.edgesuite.net^$dnsrewrite=172.20.128.3
-||playstation4.sony.akadns.net^$dnsrewrite=172.20.128.3
-||theia.dl.playstation.net^$dnsrewrite=172.20.128.3
-||tmdb.np.dl.playstation.net^$dnsrewrite=172.20.128.3
-||gs-sec.ww.np.dl.playstation.net^$dnsrewrite=172.20.128.3
+||gs2.ww.prod.dl.playstation.net^$dnsrewrite=0.0.0.0
+||*.gs2.ww.prod.dl.playstation.net^$dnsrewrite=0.0.0.0
+||*.gs2.sonycoment.loris-e.llnwd.net^$dnsrewrite=0.0.0.0
+||gs2-ww-prod.psn.akadns.net^$dnsrewrite=0.0.0.0
+||*.gs2-ww-prod.psn.akadns.net^$dnsrewrite=0.0.0.0
+||gs2.ww.prod.dl.playstation.net.edgesuite.net^$dnsrewrite=0.0.0.0
+||*.gs2.ww.prod.dl.playstation.net.edgesuite.net^$dnsrewrite=0.0.0.0
+||playstation4.sony.akadns.net^$dnsrewrite=0.0.0.0
+||theia.dl.playstation.net^$dnsrewrite=0.0.0.0
+||tmdb.np.dl.playstation.net^$dnsrewrite=0.0.0.0
+||gs-sec.ww.np.dl.playstation.net^$dnsrewrite=0.0.0.0
 
 ! sqaure domain list
-||patch-dl.ffxiv.com^$dnsrewrite=172.20.128.3
+||patch-dl.ffxiv.com^$dnsrewrite=0.0.0.0
 
 ! steam domain list
-||lancache.steamcontent.com^$dnsrewrite=172.20.128.3
+||lancache.steamcontent.com^$dnsrewrite=0.0.0.0
 
 ! teso domain list
-||live.patcher.elderscrollsonline.com^$dnsrewrite=172.20.128.3
+||live.patcher.elderscrollsonline.com^$dnsrewrite=0.0.0.0
 
 ! uplay domain list
-||*.cdn.ubi.com^$dnsrewrite=172.20.128.3
+||*.cdn.ubi.com^$dnsrewrite=0.0.0.0
 
 ! warframe domain list
-||content.warframe.com^$dnsrewrite=172.20.128.3
+||content.warframe.com^$dnsrewrite=0.0.0.0
 
 ! wargaming.net domain list
-||dl2.wargaming.net^$dnsrewrite=172.20.128.3
-||wg.gcdn.co^$dnsrewrite=172.20.128.3
-||wgus-wotasia.wargaming.net^$dnsrewrite=172.20.128.3
-||dl-wot-ak.wargaming.net^$dnsrewrite=172.20.128.3
-||dl-wot-gc.wargaming.net^$dnsrewrite=172.20.128.3
-||dl-wot-se.wargaming.net^$dnsrewrite=172.20.128.3
-||dl-wot-cdx.wargaming.net^$dnsrewrite=172.20.128.3
-||dl-wows-ak.wargaming.net^$dnsrewrite=172.20.128.3
-||dl-wows-gc.wargaming.net^$dnsrewrite=172.20.128.3
-||dl-wows-se.wargaming.net^$dnsrewrite=172.20.128.3
-||dl-wows-cdx.wargaming.net^$dnsrewrite=172.20.128.3
-||dl-wowp-ak.wargaming.net^$dnsrewrite=172.20.128.3
-||dl-wowp-gc.wargaming.net^$dnsrewrite=172.20.128.3
-||dl-wowp-se.wargaming.net^$dnsrewrite=172.20.128.3
-||dl-wowp-cdx.wargaming.net^$dnsrewrite=172.20.128.3
-||wgus-woteu.wargaming.net^$dnsrewrite=172.20.128.3
+||dl2.wargaming.net^$dnsrewrite=0.0.0.0
+||wg.gcdn.co^$dnsrewrite=0.0.0.0
+||wgus-wotasia.wargaming.net^$dnsrewrite=0.0.0.0
+||dl-wot-ak.wargaming.net^$dnsrewrite=0.0.0.0
+||dl-wot-gc.wargaming.net^$dnsrewrite=0.0.0.0
+||dl-wot-se.wargaming.net^$dnsrewrite=0.0.0.0
+||dl-wot-cdx.wargaming.net^$dnsrewrite=0.0.0.0
+||dl-wows-ak.wargaming.net^$dnsrewrite=0.0.0.0
+||dl-wows-gc.wargaming.net^$dnsrewrite=0.0.0.0
+||dl-wows-se.wargaming.net^$dnsrewrite=0.0.0.0
+||dl-wows-cdx.wargaming.net^$dnsrewrite=0.0.0.0
+||dl-wowp-ak.wargaming.net^$dnsrewrite=0.0.0.0
+||dl-wowp-gc.wargaming.net^$dnsrewrite=0.0.0.0
+||dl-wowp-se.wargaming.net^$dnsrewrite=0.0.0.0
+||dl-wowp-cdx.wargaming.net^$dnsrewrite=0.0.0.0
+||wgus-woteu.wargaming.net^$dnsrewrite=0.0.0.0
 
 ! windows update domain list
-||*.windowsupdate.com^$dnsrewrite=172.20.128.3
-||*.dl.delivery.mp.microsoft.com^$dnsrewrite=172.20.128.3
-||dl.delivery.mp.microsoft.com^$dnsrewrite=172.20.128.3
-||*.update.microsoft.com^$dnsrewrite=172.20.128.3
-||*.do.dsp.mp.microsoft.com^$dnsrewrite=172.20.128.3
-||*.microsoft.com.edgesuite.net^$dnsrewrite=172.20.128.3
-||amupdatedl.microsoft.com^$dnsrewrite=172.20.128.3
-||amupdatedl2.microsoft.com^$dnsrewrite=172.20.128.3
-||amupdatedl3.microsoft.com^$dnsrewrite=172.20.128.3
-||amupdatedl4.microsoft.com^$dnsrewrite=172.20.128.3
-||amupdatedl5.microsoft.com^$dnsrewrite=172.20.128.3
+||*.windowsupdate.com^$dnsrewrite=0.0.0.0
+||*.dl.delivery.mp.microsoft.com^$dnsrewrite=0.0.0.0
+||dl.delivery.mp.microsoft.com^$dnsrewrite=0.0.0.0
+||*.update.microsoft.com^$dnsrewrite=0.0.0.0
+||*.do.dsp.mp.microsoft.com^$dnsrewrite=0.0.0.0
+||*.microsoft.com.edgesuite.net^$dnsrewrite=0.0.0.0
+||amupdatedl.microsoft.com^$dnsrewrite=0.0.0.0
+||amupdatedl2.microsoft.com^$dnsrewrite=0.0.0.0
+||amupdatedl3.microsoft.com^$dnsrewrite=0.0.0.0
+||amupdatedl4.microsoft.com^$dnsrewrite=0.0.0.0
+||amupdatedl5.microsoft.com^$dnsrewrite=0.0.0.0
 
 ! xboxlive domain list
-||assets1.xboxlive.com^$dnsrewrite=172.20.128.3
-||assets2.xboxlive.com^$dnsrewrite=172.20.128.3
-||xbox-mbr.xboxlive.com^$dnsrewrite=172.20.128.3
-||assets1.xboxlive.com.nsatc.net^$dnsrewrite=172.20.128.3
-||xvcf1.xboxlive.com^$dnsrewrite=172.20.128.3
-||xvcf2.xboxlive.com^$dnsrewrite=172.20.128.3
-||d1.xboxlive.com^$dnsrewrite=172.20.128.3
+||assets1.xboxlive.com^$dnsrewrite=0.0.0.0
+||assets2.xboxlive.com^$dnsrewrite=0.0.0.0
+||xbox-mbr.xboxlive.com^$dnsrewrite=0.0.0.0
+||assets1.xboxlive.com.nsatc.net^$dnsrewrite=0.0.0.0
+||xvcf1.xboxlive.com^$dnsrewrite=0.0.0.0
+||xvcf2.xboxlive.com^$dnsrewrite=0.0.0.0
+||d1.xboxlive.com^$dnsrewrite=0.0.0.0
 
 ! apple domain list
-||*.mzstatic.com^$dnsrewrite=172.20.128.3
-||mzstatic.com^$dnsrewrite=172.20.128.3
-||swcdn.apple.com^$dnsrewrite=172.20.128.3
-||itunes-apple.com^$dnsrewrite=172.20.128.3
-||swscan.apple.com^$dnsrewrite=172.20.128.3
-||osxapps.itunes.apple.com^$dnsrewrite=172.20.128.3
-||swdownload.apple.com^$dnsrewrite=172.20.128.3
-||*.aaplimg.com^$dnsrewrite=172.20.128.3
-||aaplimg.com^$dnsrewrite=172.20.128.3
-||iosapps.itunes.apple.com^$dnsrewrite=172.20.128.3
-||swquery.apple.com^$dnsrewrite=172.20.128.3^$dnsrewrite=172.20.128.3
-||albert.apple.com^$dnsrewrite=172.20.128.3
-||deimos3.apple.com^$dnsrewrite=172.20.128.3
-||mesu.apple.com^$dnsrewrite=172.20.128.3
-||skl.apple.com^$dnsrewrite=172.20.128.3
-||appldnld.apple.com^$dnsrewrite=172.20.128.3
-||gs.apple.com^$dnsrewrite=172.20.128.3
-||*.cdn-apple.com^$dnsrewrite=172.20.128.3
+||*.mzstatic.com^$dnsrewrite=0.0.0.0
+||mzstatic.com^$dnsrewrite=0.0.0.0
+||swcdn.apple.com^$dnsrewrite=0.0.0.0
+||itunes-apple.com^$dnsrewrite=0.0.0.0
+||swscan.apple.com^$dnsrewrite=0.0.0.0
+||osxapps.itunes.apple.com^$dnsrewrite=0.0.0.0
+||swdownload.apple.com^$dnsrewrite=0.0.0.0
+||*.aaplimg.com^$dnsrewrite=0.0.0.0
+||aaplimg.com^$dnsrewrite=0.0.0.0
+||iosapps.itunes.apple.com^$dnsrewrite=0.0.0.0
+||swquery.apple.com^$dnsrewrite=0.0.0.0^$dnsrewrite=0.0.0.0
+||albert.apple.com^$dnsrewrite=0.0.0.0
+||deimos3.apple.com^$dnsrewrite=0.0.0.0
+||mesu.apple.com^$dnsrewrite=0.0.0.0
+||skl.apple.com^$dnsrewrite=0.0.0.0
+||appldnld.apple.com^$dnsrewrite=0.0.0.0
+||gs.apple.com^$dnsrewrite=0.0.0.0
+||*.cdn-apple.com^$dnsrewrite=0.0.0.0
 
 ! nvidia domain list
-||download.gfe.nvidia.com^$dnsrewrite=172.20.128.3
-||international-gfe.download.nvidia.com^$dnsrewrite=172.20.128.3
-||events.gfe.nvidia.com^$dnsrewrite=172.20.128.3
-||images.nvidia.com^$dnsrewrite=172.20.128.3
-||api.gfe.nvidia.com^$dnsrewrite=172.20.128.3
-||services.gfe.nvidia.com^$dnsrewrite=172.20.128.3
-||ota.nvidia.com^$dnsrewrite=172.20.128.3
+||download.gfe.nvidia.com^$dnsrewrite=0.0.0.0
+||international-gfe.download.nvidia.com^$dnsrewrite=0.0.0.0
+||events.gfe.nvidia.com^$dnsrewrite=0.0.0.0
+||images.nvidia.com^$dnsrewrite=0.0.0.0
+||api.gfe.nvidia.com^$dnsrewrite=0.0.0.0
+||services.gfe.nvidia.com^$dnsrewrite=0.0.0.0
+||ota.nvidia.com^$dnsrewrite=0.0.0.0
