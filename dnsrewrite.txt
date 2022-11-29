@@ -9,7 +9,7 @@
 !
 !
 ! These rules are taken from https://github.com/uklans/cache-domains
-! This is setup for my local server on port 192.168.1.213:80. You will need to change this number to whatever you use.
+! This is setup for my local server on IP 172.20.128.3 (docker). You will need to change this number to whatever you use on your docker server (for monolithic multiple IPS).
 !
 !
 !
