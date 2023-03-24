@@ -66,6 +66,12 @@
 ! nexusmods domain list
 ||filedelivery.nexusmods.com^$dnsrewrite=192.168.1.214
 
+! mega domain list
+||*.userstorage.mega.co.nz^$dnsrewrite=192.168.1.214
+||mega.nz^$dnsrewrite=192.168.1.214
+||mega.co.nz^$dnsrewrite=192.168.1.214
+||mega-debrid.eu^$dnsrewrite=192.168.1.214
+
 ! nintendo domain list
 ||ccs.cdn.wup.shop.nintendo.net^$dnsrewrite=192.168.1.214
 ||ccs.cdn.wup.shop.nintendo.net.edgesuite.net^$dnsrewrite=192.168.1.214
@@ -213,9 +219,3 @@
 ||api.gfe.nvidia.com^$dnsrewrite=192.168.1.214
 ||services.gfe.nvidia.com^$dnsrewrite=192.168.1.214
 ||ota.nvidia.com^$dnsrewrite=192.168.1.214
-
-! mega domain list
-||gfs302n130.userstorage.mega.co.nz^$dnsrewrite=192.168.1.214
-||mega.nz^$dnsrewrite=192.168.1.214
-||mega.co.nz^$dnsrewrite=192.168.1.214
-||mega-debrid.eu^$dnsrewrite=192.168.1.214
