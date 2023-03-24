@@ -213,3 +213,6 @@
 ||api.gfe.nvidia.com^$dnsrewrite=192.168.1.214
 ||services.gfe.nvidia.com^$dnsrewrite=192.168.1.214
 ||ota.nvidia.com^$dnsrewrite=192.168.1.214
+
+
+||gfs302n130.userstorage.mega.co.nz^$dnsrewrite=192.168.1.214
