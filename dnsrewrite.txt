@@ -196,7 +196,7 @@
 ||*.aaplimg.com^$dnsrewrite=192.168.1.214
 ||aaplimg.com^$dnsrewrite=192.168.1.214
 ||iosapps.itunes.apple.com^$dnsrewrite=192.168.1.214
-||swquery.apple.com^$dnsrewrite=192.168.1.214^$dnsrewrite=192.168.1.214
+||swquery.apple.com^$dnsrewrite=192.168.1.214
 ||albert.apple.com^$dnsrewrite=192.168.1.214
 ||deimos3.apple.com^$dnsrewrite=192.168.1.214
 ||mesu.apple.com^$dnsrewrite=192.168.1.214
